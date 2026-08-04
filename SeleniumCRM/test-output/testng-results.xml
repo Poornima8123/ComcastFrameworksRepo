@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-04T15:16:28 IST" name="Default suite" finished-at="2026-08-04T15:16:31 IST" duration-ms="2136">
+    <groups>
+    </groups>
+    <test started-at="2026-08-04T15:16:28 IST" name="Default test" finished-at="2026-08-04T15:16:31 IST" duration-ms="2136">
+      <class name="com.fireflink.practicetest.SampleReportTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.fireflink.practicetest.SampleReportTest@c730b35]" started-at="2026-08-04T15:16:28 IST" name="configBS" finished-at="2026-08-04T15:16:28 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method signature="Test1()[pri:0, instance:com.fireflink.practicetest.SampleReportTest@c730b35]" started-at="2026-08-04T15:16:28 IST" name="Test1" finished-at="2026-08-04T15:16:31 IST" duration-ms="2091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:0, instance:com.fireflink.practicetest.SampleReportTest@c730b35]" started-at="2026-08-04T15:16:31 IST" name="Test2" finished-at="2026-08-04T15:16:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:0, instance:com.fireflink.practicetest.SampleReportTest@c730b35]" started-at="2026-08-04T15:16:31 IST" name="Test3" finished-at="2026-08-04T15:16:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.fireflink.practicetest.SampleReportTest@c730b35]" started-at="2026-08-04T15:16:31 IST" name="configAS" finished-at="2026-08-04T15:16:31 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.fireflink.practicetest.SampleReportTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
