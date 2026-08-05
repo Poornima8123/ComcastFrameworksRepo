@@ -8,13 +8,27 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2,136</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test-1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">864</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test-2</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,052</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">7,916</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.fireflink.practicetest.SampleReportTest</td><td><a href="#m0">Test1</a></td><td rowspan="1">1785836788975</td><td rowspan="1">2091</td></tr><tr class="passedeven"><td><a href="#m1">Test2</a></td><td rowspan="1">1785836791069</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m2">Test3</a></td><td rowspan="1">1785836791074</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test-1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.crm.remotetest.BrowserStack</td><td><a href="#m0">sampleTest</a></td><td rowspan="1">1785907955313</td><td rowspan="1">800</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test-2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.fireflink.practicetest.SampleReportTest</td><td><a href="#m1">Test1</a></td><td rowspan="1">1785907955313</td><td rowspan="1">6971</td></tr><tr class="passedeven"><td><a href="#m2">Test2</a></td><td rowspan="1">1785907962290</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m3">Test3</a></td><td rowspan="1">1785907962301</td><td rowspan="1">5</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.fireflink.practicetest.SampleReportTest#Test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.fireflink.practicetest.SampleReportTest#Test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.fireflink.practicetest.SampleReportTest#Test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test-1</h2><h3 id="m0">com.crm.remotetest.BrowserStack#sampleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Capabilities must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
+	at com.crm.remotetest.BrowserStack.sampleTest(BrowserStack.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test-2</h2><h3 id="m1">com.fireflink.practicetest.SampleReportTest#Test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.fireflink.practicetest.SampleReportTest#Test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.fireflink.practicetest.SampleReportTest#Test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
