@@ -2,16 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-06T15:36:46 IST" name="Default suite" finished-at="2026-08-06T15:36:47 IST" duration-ms="1133">
+  <suite started-at="2026-08-07T18:15:12 IST" name="Suite" finished-at="2026-08-07T18:15:12 IST" duration-ms="49">
     <groups>
     </groups>
-    <test started-at="2026-08-06T15:36:46 IST" name="Default test" finished-at="2026-08-06T15:36:47 IST" duration-ms="1133">
-      <class name="practice.datadriventesting.SampleUnitTestheckProjectInBackEndJDBC">
-        <test-method signature="projectTestCheck()[pri:0, instance:practice.datadriventesting.SampleUnitTestheckProjectInBackEndJDBC@368f2016]" started-at="2026-08-06T15:36:46 IST" name="projectTestCheck" finished-at="2026-08-06T15:36:47 IST" duration-ms="1034" status="PASS">
+    <test started-at="2026-08-07T18:15:12 IST" name="Test" finished-at="2026-08-07T18:15:12 IST" duration-ms="49">
+      <class name="practice.datadriventesting.ReadDataFromTestNGXmlTest">
+        <test-method signature="sampleTest(org.testng.xml.XmlTest)[pri:0, instance:practice.datadriventesting.ReadDataFromTestNGXmlTest@692f203f]" started-at="2026-08-07T18:15:12 IST" name="sampleTest" finished-at="2026-08-07T18:15:12 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@eaddadd]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- projectTestCheck -->
-      </class> <!-- practice.datadriventesting.SampleUnitTestheckProjectInBackEndJDBC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- sampleTest -->
+      </class> <!-- practice.datadriventesting.ReadDataFromTestNGXmlTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

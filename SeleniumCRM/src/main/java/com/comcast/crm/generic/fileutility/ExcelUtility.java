@@ -14,8 +14,8 @@ public class ExcelUtility {
 		FileInputStream fis = new FileInputStream("./testdata/testScriptData");
 		
 		Workbook wb = WorkbookFactory.create(fis);
-		String data = wb.getName(sheetName).getRow(rowNum).getCell(celNum).getStringCellValue();
-		return data;
+	    String	data=wb.getSheet(sheetName).getRow(rowNum).getCell(celNum).getStringCellValue();
+        return data;
 
 	}
 	

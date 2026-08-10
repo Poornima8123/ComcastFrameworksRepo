@@ -14,7 +14,7 @@ public class JosnUtility {
 		JsonParser parser = new JsonParser();
 		Object obj = parser.parse(fileR);
 		JsonObject map = (JsonObject)obj;
-		String data = (String) map.get(key);
+		String data =  map.get(key).toString();
 		return data;
 		
 	}

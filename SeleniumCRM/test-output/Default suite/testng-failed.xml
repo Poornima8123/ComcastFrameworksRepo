@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fireflink.practicetest.SampleReportTest">
+      <class name="com.fireflink.practicetest.GetProductInfoTest">
         <methods>
-          <include name="Test1"/>
-          <include name="Test2"/>
-          <include name="Test3"/>
-          <include name="configBS"/>
-          <include name="configAS"/>
+          <include name="getProductInfoTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.fireflink.practicetest.SampleReportTest -->
+      </class> <!-- com.fireflink.practicetest.GetProductInfoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
