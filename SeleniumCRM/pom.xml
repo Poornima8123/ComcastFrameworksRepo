@@ -35,6 +35,14 @@
     <version>9.7.0</version>
     <scope>compile</scope>
 </dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.eclipse.sw360/commonIO -->
+<dependency>
+    <groupId>org.eclipse.sw360</groupId>
+    <artifactId>commonIO</artifactId>
+    <version>18.0.0-10</version>
+    <scope>compile</scope>
+</dependency>
   
   </dependencies>
 </project>

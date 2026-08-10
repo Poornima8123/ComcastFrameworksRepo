@@ -12,11 +12,13 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class BaseClass {
 
 	public ExtentReports report;
+	public WebDriver driver;
+
 	@BeforeSuite
 	public void configBS()
 	{
-		WebDriver driver = new ChromeDriver();
-		ExtentSparkReporter spark = new ExtentSparkReporter("./AdvanceReport/report.html");
+		driver= new ChromeDriver();
+				ExtentSparkReporter spark = new ExtentSparkReporter("./AdvanceReport/report.html");
 		spark.config().setDocumentTitle("Advance Report Title");
 		spark.config().setReportName("CRM report");
 		spark.config().setTheme(Theme.DARK);
