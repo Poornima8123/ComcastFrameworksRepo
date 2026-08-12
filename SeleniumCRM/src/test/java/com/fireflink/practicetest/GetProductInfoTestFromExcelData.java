@@ -34,11 +34,11 @@ public class GetProductInfoTestFromExcelData {
 	public Object[][] getData(){
 		
 		ExcelUtility eLib = new ExcelUtility();
-		eLib.getDataFromExcel(null, 0, 0)
+		//eLib.getDataFromExcel(null, 0, 0).charAt(1);
 	
 		Object[][] obj = new Object[3][2];
 		obj[0][0]="iphone";
-		obj[0][1]="iPhone 17 Pro Max 256 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera;";
+		obj[0][1]="iPhone 17 Pro Max 256 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera";
 		
 		obj[1][0]="iphone";
 		obj[1][1]="iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Space";

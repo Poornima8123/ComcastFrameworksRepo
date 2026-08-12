@@ -36,13 +36,43 @@
     <scope>compile</scope>
 </dependency>
 
-<!-- Source: https://mvnrepository.com/artifact/org.eclipse.sw360/commonIO -->
-<dependency>
-    <groupId>org.eclipse.sw360</groupId>
-    <artifactId>commonIO</artifactId>
-    <version>18.0.0-10</version>
-    <scope>compile</scope>
-</dependency>
-  
   </dependencies>
+
+<build>
+		<plugins>
+
+			<!-- Make this jar executable -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<!-- Jar file entry point -->
+							<addClasspath>true</addClasspath>
+							<mainClass>com.App</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+
+			<!-- Following plugin executes the testng tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.14.1</version>
+				<configuration>
+					<!-- Suite testng xml file to consider for test execution -->
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+	
+
+		</plugins>
+	</build>
+
+
+
 </project>
